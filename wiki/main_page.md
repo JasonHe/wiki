@@ -21,6 +21,7 @@ redirect_from: "/"
 
 ## 测试公式编辑器效果
 
+
 $$
 \begin{aligned}
   \phi(x,y) &= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
@@ -38,6 +39,8 @@ $$
                \end{array}\right)
 \end{aligned}
 $$
+
+
 
 
 
