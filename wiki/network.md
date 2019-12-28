@@ -1,4 +1,4 @@
-# Customize git-wiki
+# 网络相关配置（Demo）
 
 
 From version 2.x Git-Wiki uses a **modular** architecture based on **components** and **"including hooks".**
@@ -39,39 +39,39 @@ can use the "including hooks" feature. It allows you to dynamically include a cu
 ### Style changes (head)
 
 If you need a simple style change the easiest way to do it is including a custom css file that is able to add/overwrite default css rules.
-  
+
 To do it you can add in your _config.yml the following configuration:
 
 ```
 inc_after_styles : "path/to/your/style.html" 
 ```
-  
+
 then in your _include folder you must add file defined above. It must be an html with
 the <link> elements inside.
-  
+
 For example: <link rel="stylesheet" href="{{ 'assets/css/mystyle.css' | relative_url }}">
-  
+
 **NOTE**: as you can see we're using relative_url jekyll function allowing us to include the css file of our assets folder.
 
 
-  
+
 ### Add your components
-  
+
 With the same method used to include styles file you are able to use our "including hooks" to add your code everywhere you want.
 
 You can find the list of all hooks at the bottom of this page
 
 
 #### Sidebar
-  
+
 If you need to add content inside sidebar of our default layout you can use following hook:
 
 `inc_after_header: "my_sidebar_file.html"`
 
 #### Comments
-  
+
 If you need to add a comment component (for example disqus) you can use following hook:
-  
+
 `inc_after_content: "my_comments_file.html"`
 
 
@@ -84,7 +84,7 @@ Before working with layout refactoring you should learn:
 * Take a look at git-wiki default layouts to understand how to build your: https://github.com/Drassil/git-wiki/tree/master/_layouts
 
 If you need to totally change the layout of your wiki you can create a custom file in _layout folder and reuse only components that you need in the place that you want.
-  
+
 You've just to change following config:
 
 ```
@@ -101,9 +101,9 @@ defaults:
     values:
       layout: "git-wiki-default"
 ```
-  
+
 replacing **layout: "git-wiki-default"** with name of your custom layout.
 
 ## Configuration keys:
-  
+
 Read _config.yml.dist file of your git-wiki installation for detailed list of configuration values (commented)
