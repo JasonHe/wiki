@@ -1,6 +1,6 @@
-# Made with Git-Wiki
+# 以下为软件百科列表（Demo）
 
-If you have built a wiki with git-wiki, please edit this file and add your wiki link
+Demo：
 
 * [aZerothCore](http://www.azerothcore.org/wiki/home)
 
