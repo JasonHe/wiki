@@ -1,4 +1,4 @@
-# (string) Title of your wiki
+  # (string) Title of your wiki
 title: Jason's Wiki
 description: 一个简单的Wiki系统
 show_downloads: true
@@ -72,7 +72,7 @@ plugins:
 inc_before_toc :
 inc_after_toc :
 inc_before_content :
-inc_after_content: "drassil/comments.html"
+inc_after_content: 
 inc_before_footer :
 inc_after_footer :
 inc_before_head :
