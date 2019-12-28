@@ -43,9 +43,7 @@ $$
 
 ### 也可以插入图片
 
-<img src="../../../../../../git-wiki/assets/images/1200px-Wikipedia-logo-v2.svg_.png" alt="1200px-Wikipedia-logo-v2.svg_" style="zoom: 25%;" />
-
-
+![demo](../assets/images/demo.png)
 
 # 欢迎编辑或添加页面，有你参与，内容会更加丰富!
 
