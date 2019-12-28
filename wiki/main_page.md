@@ -48,5 +48,3 @@ $$
 # 欢迎编辑或添加页面，有你参与，内容会更加丰富!
 
 # Feel free to add any contant and enjoy my wiki!
-
-LICENSE)
