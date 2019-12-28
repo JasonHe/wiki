@@ -13,7 +13,7 @@ logo_url: http://drassil.github.io/git-wiki/assets/images/1200px-Wikipedia-logo-
 google_analytics:
 git_branch: wiki
 theme:
-use_github_wiki: false
+use_github_wiki: true
 use_prose_io: true
 service: github
 search_engine : "js"
