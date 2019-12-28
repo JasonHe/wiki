@@ -17,8 +17,8 @@ use_github_wiki: true
 use_prose_io: true
 service: github
 search_engine : "js"
-google_cse_token: 007197903287787072094:8rbvkeqo6qw
-wiki_folder : "wiki"
+google_cse_token:
+wiki_folder : wiki
 permalink: /blog/posts/:year/:month/:day/:title:output_ext
 
 #
