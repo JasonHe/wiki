@@ -43,7 +43,7 @@ $$
 
 ### 也可以插入图片
 
-![demo](../assets/images/demo.png)
+<img src="../assets/images/demo.png" alt="demo" style="zoom:33%;" />
 
 # 欢迎编辑或添加页面，有你参与，内容会更加丰富!
 
