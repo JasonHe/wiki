@@ -1,9 +1,9 @@
 <div class="git-wiki-tools">
     {% if site.use_github_wiki %}
-    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/_new">Add new</a></span>
-    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/{{url | remove: '.html' | append: ''}}/_edit">Edit</a></span>
-    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/{{url | remove: '.html' | append: ''}}/_history">History</a></span>
-    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/{{url | remove: '.html' | append: '.md'}}/">Source</a></span>
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/_new">新建词条</a></span>
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/{{url | remove: '.html' | append: ''}}/_edit">编辑</a></span>
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/{{url | remove: '.html' | append: ''}}/_history">历史</a></span>
+    <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/wiki/{{url | remove: '.html' | append: '.md'}}/">源文件</a></span>
     {% else %}
     <span class="tools-element"><a target="_blank" href="{{ site.github.repository_url }}/new/{{site.git_branch}}?filename={{ site.wiki_folder | default: 'wiki' }}/">Add
             new</a></span>
