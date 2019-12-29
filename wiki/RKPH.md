@@ -2,7 +2,7 @@
 
 > 请点击链接或在页面右上角搜索帮助
 
-- [邮箱系统](./wiki/database/邮箱系统.html)
+- [邮箱系统](https://www.hehaohan.com/wiki/邮箱系统.html)
 
 - OA系统
   
